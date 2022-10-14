@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gebeyanu/widgets/widgets.dart';
+import 'package:gebeyanu/config/app_router.dart';
+import 'package:gebeyanu/config/theme.dart';
+import 'package:gebeyanu/screens/screens.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,16 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Gebeyanu',
-      home: Home(),
-    );
-  }
-}
-
-class Home extends StatelessWidget {
-  Widget build(BuildContext context) {
-    return const Scaffold(
-      appBar: CustomAppBar(title: 'Gebeyanu'),
-      bottomNavigationBar: BottomAppBar(),
+      theme: theme(),
+      home: HomeScreen(),
+      onGenerateRoute: AppRouter.onGenerateRoute,
+      initialRoute: HomeScreen.routeName,
     );
   }
 }
