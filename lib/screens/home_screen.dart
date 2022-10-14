@@ -5,15 +5,20 @@ import '../widgets/widgets.dart';
 class HomeScreen extends StatelessWidget {
   static const routeName = '/';
 
+  const HomeScreen({super.key});
+
   static Route route() {
     return MaterialPageRoute(
-        settings: RouteSettings(name: routeName), builder: (_) => HomeScreen());
+        settings: const RouteSettings(name: routeName),
+        builder: (_) => const HomeScreen());
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const CustomAppBar(title: 'Gebeyanu'),
       bottomNavigationBar: const CustomNavBar(),
+      body: Container(),
     );
   }
 }
