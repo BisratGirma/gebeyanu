@@ -53,5 +53,13 @@ class Product extends Equatable {
         price: 90.00,
         isRecommended: true,
         isPopular: true),
+        const Product(
+        name: 'Ethiopian Gabi',
+        category: 'Cloth',
+        imageUrl:
+            'https://upload.wikimedia.org/wikipedia/commons/9/93/Ethiopian_woman_in_Gabi.jpg',
+        price: 90.00,
+        isRecommended: false,
+        isPopular: true),
   ];
 }
