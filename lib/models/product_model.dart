@@ -8,55 +8,50 @@ class Product extends Equatable {
   final bool isRecommended;
   final bool isPopular;
 
-  const Product(this.name, this.category, this.imageUrl, this.price,
-      this.isRecommended, this.isPopular);
+  const Product(
+      {required this.name,
+      required this.category,
+      required this.imageUrl,
+      required this.price,
+      required this.isRecommended,
+      required this.isPopular});
 
   @override
   List<Object?> get props =>
       [name, category, imageUrl, price, isRecommended, isPopular];
 
   static List<Product> products = [
-    Product(
-        'Shiro',
-        'Food',
-        'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
-        90.00,
-        true,
-        true),
-    Product(
-        'Shiro',
-        'Food',
-        'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
-        90.00,
-        true,
-        true),
-    Product(
-        'Shiro',
-        'Food',
-        'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
-        90.00,
-        true,
-        true),
-    Product(
-        'Shiro',
-        'Food',
-        'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
-        90.00,
-        true,
-        true),
-    Product(
-        'Shiro',
-        'Food',
-        'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
-        90.00,
-        true,
-        true),
-    Product(
-        'Shiro',
-        'Food',
-        'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
-        90.00,
-        true,
-        true)
+    const Product(
+        name: 'Shiro',
+        category: 'Food',
+        imageUrl:
+            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+        price: 90.00,
+        isRecommended: true,
+        isPopular: true),
+    const Product(
+        name: 'Shiro',
+        category: 'Food',
+        imageUrl:
+            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+        price: 90.00,
+        isRecommended: true,
+        isPopular: false),
+    const Product(
+        name: 'Shiro',
+        category: 'Food',
+        imageUrl:
+            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+        price: 90.00,
+        isRecommended: true,
+        isPopular: true),
+    const Product(
+        name: 'Shiro',
+        category: 'Food',
+        imageUrl:
+            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+        price: 90.00,
+        isRecommended: true,
+        isPopular: true),
   ];
 }
