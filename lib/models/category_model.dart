@@ -14,10 +14,10 @@ class Category extends Equatable {
     const Category(
         name: "Menen Tibeb",
         imageUrl:
-            "https://i.etsystatic.com/37098475/r/il/3dd935/4126270206/il_794xN.4126270206_2wy0.jpg"),
-  const Category(name: "Opal cluster necklace", imageUrl: "https://i.etsystatic.com/30058821/r/il/138972/3176971363/il_794xN.3176971363_i39s.jpg"),
-  const Category(name: "Traditional", imageUrl: "https://allaboutethio.com/images/modern-cultural-traditional-oromo-clothes-1.jpg"),
-  
-  
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Habesha_woman-b.jpg/220px-Habesha_woman-b.jpg"),
+    const Category(
+        name: "Traditional",
+        imageUrl:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Traditional_Eritrean_dance.jpg/140px-Traditional_Eritrean_dance.jpg"),
   ];
 }

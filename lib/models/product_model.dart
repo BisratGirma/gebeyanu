@@ -25,7 +25,7 @@ class Product extends Equatable {
         name: 'Shiro',
         category: 'Food',
         imageUrl:
-            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taita_and_shiro.jpg/250px-Taita_and_shiro.jpg',
         price: 90.00,
         isRecommended: true,
         isPopular: true),
@@ -33,7 +33,7 @@ class Product extends Equatable {
         name: 'Shiro',
         category: 'Food',
         imageUrl:
-            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taita_and_shiro.jpg/250px-Taita_and_shiro.jpg',
         price: 90.00,
         isRecommended: true,
         isPopular: false),
@@ -41,7 +41,7 @@ class Product extends Equatable {
         name: 'Shiro',
         category: 'Food',
         imageUrl:
-            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taita_and_shiro.jpg/250px-Taita_and_shiro.jpg',
         price: 90.00,
         isRecommended: true,
         isPopular: true),
@@ -49,13 +49,13 @@ class Product extends Equatable {
         name: 'Shiro',
         category: 'Food',
         imageUrl:
-            'https://whisk-res.cloudinary.com/image/upload/g_auto,g_auto,c_fill,q_60,f_auto,h_600,w_800/v1588909583/recipe/d7276280fee06fa3ae88901a1bdbbc1c.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Taita_and_shiro.jpg/250px-Taita_and_shiro.jpg',
         price: 90.00,
         isRecommended: true,
         isPopular: true),
-        const Product(
+    const Product(
         name: 'Ethiopian Gabi',
-        category: 'Cloth',
+        category: 'Traditional',
         imageUrl:
             'https://upload.wikimedia.org/wikipedia/commons/9/93/Ethiopian_woman_in_Gabi.jpg',
         price: 90.00,
